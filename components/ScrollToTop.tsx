@@ -4,8 +4,20 @@ import { useEffect } from "react";
 
 export default function ScrollToTop() {
   useEffect(() => {
-    // Force scroll to top on page load
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    // Disable browser scroll restoration
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+
+    // Force scroll to top immediately
+    window.scrollTo(0, 0);
+
+    // Also scroll after a short delay to override any other effects
+    const timer = setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, []);
 
   return null;
