@@ -42,9 +42,9 @@ export const personalInfo = {
 };
 
 export const heroStats = [
-  { value: "20+", label: "Years Experience" },
-  { value: "$20M+", label: "Revenue Driven" },
-  { value: "5", label: "Product Launches" },
+  { value: "20", label: "Years Experience" },
+  { value: "$20M", label: "Revenue Driven" },
+  { value: "10", label: "Product Launches" },
   { value: "100%", label: "Deadline Hit Rate" },
 ];
 
