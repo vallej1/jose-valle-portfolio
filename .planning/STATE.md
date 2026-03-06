@@ -4,20 +4,20 @@
 
 - **Phase:** 02-vercel-apps-section
 - **Current Plan:** 01
-- **Status:** checkpoint — awaiting human visual verification (Task 2)
-- **Stopped At:** 02-01-PLAN.md Task 2 (checkpoint:human-verify)
+- **Status:** complete
+- **Stopped At:** 02-01-PLAN.md (all tasks complete)
 
 ## Progress
 
 ```
-[##--] 1/2 tasks complete in phase 02
+[####] 2/2 tasks complete in phase 02
 ```
 
 ## Phases
 
 | Phase | Name                    | Status      |
 | ----- | ----------------------- | ----------- |
-| 02    | vercel-apps-section     | in-progress |
+| 02    | vercel-apps-section     | complete    |
 
 ## Decisions
 
@@ -29,9 +29,9 @@
 
 | Phase | Plan | Duration | Tasks | Files |
 | ----- | ---- | -------- | ----- | ----- |
-| 02    | 01   | 8min     | 1     | 5     |
+| 02    | 01   | 10min    | 2     | 5     |
 
 ## Session
 
 - **Last session:** 2026-03-06
-- **Stopped At:** 02-01-PLAN.md Task 2 checkpoint:human-verify
+- **Stopped At:** 02-01-PLAN.md complete (human visual verification approved)
