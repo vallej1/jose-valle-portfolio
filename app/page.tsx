@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Timeline from "@/components/Timeline";
 import CaseStudies from "@/components/CaseStudies";
+import VercelApps from "@/components/VercelApps";
 import ChatBox from "@/components/ChatBox";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Timeline />
       <CaseStudies />
+      <VercelApps />
       <ChatBox />
       <Contact />
       <Footer />

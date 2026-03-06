@@ -293,6 +293,50 @@ export const caseStudies: CaseStudy[] = [
   }
 ];
 
+export interface VercelApp {
+  id: string;
+  name: string;
+  description: string;
+  url: string;
+  tags: string[];
+  color: string;
+}
+
+export const vercelApps: VercelApp[] = [
+  {
+    id: "quiz-app",
+    name: "Quiz App",
+    description: "Interactive quiz application with real-time scoring and dynamic question sets.",
+    url: "https://quiz-project-pied-phi.vercel.app/",
+    tags: ["React", "Vercel"],
+    color: "#3b82f6",
+  },
+  {
+    id: "expense-splitter",
+    name: "Expense Splitter",
+    description: "Group expense tracking tool that calculates and splits shared costs fairly.",
+    url: "https://expense-splitter-mocha.vercel.app/app",
+    tags: ["Next.js", "Vercel"],
+    color: "#10b981",
+  },
+  {
+    id: "chain-of-thought",
+    name: "Chain-of-Thought Demo",
+    description: "Visualization of AI chain-of-thought reasoning, showing how LLMs break down complex problems step by step.",
+    url: "https://scout-chain-of-thought-demo.vercel.app/",
+    tags: ["AI", "Next.js", "Vercel"],
+    color: "#8b5cf6",
+  },
+  {
+    id: "punch-list",
+    name: "Punch List",
+    description: "Project punch list manager for tracking outstanding tasks and deficiencies through to completion.",
+    url: "https://punch-list-xi.vercel.app/",
+    tags: ["React", "Vercel"],
+    color: "#f59e0b",
+  },
+];
+
 export const education = {
   school: "Southern CT State University",
   location: "New Haven, CT",
